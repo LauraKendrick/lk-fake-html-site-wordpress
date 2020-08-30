@@ -81,6 +81,12 @@ a:hover {
   margin:auto 0;
 }
 
+.logoContainer img {
+  width: 190px; 
+  padding-bottom: 10px;
+  float:left;
+}
+
 /*Top banner */
 .fullwidthImage {
   background-image: url('http://localhost/fakehtmlsite/wp-content/uploads/2020/08/Webathon_lumberjack-man.png');
