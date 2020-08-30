@@ -29,7 +29,7 @@
 
 		<div class="col-12 col-lg-3" id="iconCenter" >
 			<div class="imgBackground">
-			<img src="wp-content/uploads/2020/08/Webathon_distribute.png">
+			<img src="<?php echo do_shortcode(get_field('distributeicon')); ?>">
 		</div>
 		<p><strong>Distribute</strong> tasks to your team</p>
 		</div>
