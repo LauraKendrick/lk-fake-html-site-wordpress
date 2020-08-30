@@ -233,6 +233,7 @@ body.mob-menu-slideout-over {
     background-color: #3C2F19;
     color: white;
     height: 500px;
+    padding-bottom: 50px;
 }
 
 .footerContainer li {
