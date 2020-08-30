@@ -76,13 +76,17 @@ a:hover {
   margin:auto 0;
 }
 
+.mob-menu-header-holder {
+ background-color: white!important; 
+}
+
 .logoContainer img {
   width: 190px; 
   padding-bottom: 10px;
   float:left;
 }
 
-.mob-icon-menu .mob-menu-icon {
+.mobmenur-container i {
   margin-top: 35px!important;
   color: #FFA000;
 }
