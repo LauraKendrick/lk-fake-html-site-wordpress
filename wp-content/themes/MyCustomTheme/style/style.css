@@ -95,10 +95,6 @@ body.mob-menu-slideout-over {
   padding-top:0px!important;
 }
 
-.show-nav-left .mobmenu-overlay, .show-nav-right .mobmenu-overlay, .show-mob-menu-search .mobmenu-overlay {
-  background-color: white!important;
-}
-
 /*Top banner */
 .fullwidthImage {
   background-image: url('http://localhost/fakehtmlsite/wp-content/uploads/2020/08/Webathon_lumberjack-man.png');
