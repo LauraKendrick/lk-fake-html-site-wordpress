@@ -114,15 +114,6 @@ body.mob-menu-slideout-over {
   line-height: 1em;
 }
 
-.fullwidthImage p{
-  padding-top: 10px;
-  padding-bottom: 25px;
-  font-size: 34px!important;
-  font-weight: 200;
-  color: #B2B2B2;
-}
-
-
 /*Text image sections */
 
 .firstImageText {
@@ -279,6 +270,13 @@ body.mob-menu-slideout-over {
 padding-top:15px;
 }
 
+.fullwidthImage p{
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font-size: 34px!important;
+  font-weight: 200;
+  color: #B2B2B2;
+}
 
 /*Media queries */
 @media (min-width: 1200px) {
