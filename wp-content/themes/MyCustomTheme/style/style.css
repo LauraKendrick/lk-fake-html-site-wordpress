@@ -74,6 +74,7 @@ a:hover {
 
 .logoContainer {
   margin:auto 0;
+  z-index:9999999999;
 }
 
 .mob-menu-header-holder {
@@ -87,7 +88,6 @@ a:hover {
 }
 
 .mobmenur-container i {
-  margin-top: 35px!important;
   color: #FFA000!important;
 }
 
