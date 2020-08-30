@@ -44,28 +44,28 @@
 </div>
 
 
-<div class="container imageText" style="padding-top:165px; height: 600px;">
+<div class="container imageText firstImageText">
 	<div class="row">
 	<div class="col-12 col-lg-6" style="margin: auto 0;">
 			<h2><?php echo do_shortcode(get_field('increasedoutputtext')); ?></h2>
-			<p style="padding-top:25px;"><?php echo do_shortcode(get_field('increasedoutputbody')); ?></p>
+			<p><?php echo do_shortcode(get_field('increasedoutputbody')); ?></p>
 		</div>
 		<div class="col-12 col-lg-6">
-			<img src="<?php echo do_shortcode(get_field('increasedoutputimage')); ?>" style="width: 100%;">
+			<img src="<?php echo do_shortcode(get_field('increasedoutputimage')); ?>">
 		</div>
 	</div>
 </div>
 
 <div class="GreyContainer">
-<div class="container imageText" style="height:500px; padding-top: 90px;">
+<div class="container imageText secondImageText">
 	<div class="row">
 		<div class="col-12 col-lg-6">
-			<img src="<?php echo do_shortcode(get_field('earnrespectimage')); ?>" style="width: 100%;">
+			<img src="<?php echo do_shortcode(get_field('earnrespectimage')); ?>">
 		</div>
 
 		<div class="col-12 col-lg-6" style="margin: auto 0;">
 			<h2><?php echo do_shortcode(get_field('earnrespecttext')); ?></h2>
-			<p style="padding-top:25px;"><?php echo do_shortcode(get_field('earnrespectbody')); ?></p>
+			<p><?php echo do_shortcode(get_field('earnrespectbody')); ?></p>
 		</div>
 	</div>
 </div>
@@ -75,10 +75,10 @@
 	<div class="row">
 	<div class="col-12 col-lg-6" style="margin: auto 0;">
 		<h2><?php echo do_shortcode(get_field('followdreamstext')); ?></h2>
-		<p style="padding-top:25px;"><?php echo do_shortcode(get_field('followdreamsbody')); ?></p>
+		<p><?php echo do_shortcode(get_field('followdreamsbody')); ?></p>
 		</div>
 		<div class="col-12 col-lg-6">
-			<img src="<?php echo do_shortcode(get_field('followdreamsimage')); ?>" style="width: 100%;">
+			<img src="<?php echo do_shortcode(get_field('followdreamsimage')); ?>">
 		</div>
 	</div>
 </div>

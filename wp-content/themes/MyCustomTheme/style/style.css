@@ -111,6 +111,25 @@ a:hover {
 
 
 /*Text image sections */
+
+.firstImageText {
+  padding-top:165px; 
+  height: 600px;
+}
+
+.imageText img {
+  width: 100%;
+}
+
+.imageText p {
+  padding-top:25px;
+}
+
+.secondImageText {
+  height:500px; 
+  padding-top: 90px;
+}
+
 .container h2 {
   line-height: 1em!important;
   font-weight: 600!important;
