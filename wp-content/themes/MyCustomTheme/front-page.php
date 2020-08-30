@@ -22,7 +22,7 @@
 	<div class="row justify-content-center">
 		<div class="col-12 col-lg-3" id="iconLeft">
 			<div class="imgBackground">
-				<img src="wp-content/uploads/2020/08/Webathon_segment.png">
+				<img src="<?php echo do_shortcode(get_field('segmenticon')); ?>">
 			</div>
 			<p style="float:left;"><strong>Segment</strong> your data effectively</p>
 		</div>
@@ -36,7 +36,7 @@
 
 		<div class="col-12 col-lg-3" id="iconRight">
 			<div class="imgBackground">
-			<img src="wp-content/uploads/2020/08/Webathon_manage.png">
+			<img src="<?php echo do_shortcode(get_field('manageicon')); ?>">
 		</div>
 		<p><strong>Manage</strong> your workflow</p>
 	</div>
@@ -51,7 +51,7 @@
 			<p style="padding-top:25px;"><?php echo do_shortcode(get_field('increasedoutputbody')); ?></p>
 		</div>
 		<div class="col-12 col-lg-6">
-			<img src="wp-content/uploads/2020/08/Webathon_tech-girl.png" style="width: 100%;">
+			<img src="<?php echo do_shortcode(get_field('increasedoutputimage')); ?>" style="width: 100%;">
 		</div>
 	</div>
 </div>
@@ -60,7 +60,7 @@
 <div class="container imageText" style="height:500px; padding-top: 90px;">
 	<div class="row">
 		<div class="col-12 col-lg-6">
-			<img src="wp-content/uploads/2020/08/Webathon_family-around-computer.png" style="width: 100%;">
+			<img src="<?php echo do_shortcode(get_field('earnrespectimage')); ?>" style="width: 100%;">
 		</div>
 
 		<div class="col-12 col-lg-6" style="margin: auto 0;">
@@ -78,7 +78,7 @@
 		<p style="padding-top:25px;"><?php echo do_shortcode(get_field('followdreamsbody')); ?></p>
 		</div>
 		<div class="col-12 col-lg-6">
-			<img src="wp-content/uploads/2020/08/Webathon_handshake.png" style="width: 100%;">
+			<img src="<?php echo do_shortcode(get_field('followdreamsimage')); ?>" style="width: 100%;">
 		</div>
 	</div>
 </div>
