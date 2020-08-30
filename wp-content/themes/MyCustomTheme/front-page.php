@@ -46,7 +46,7 @@
 
 <div class="container imageText firstImageText">
 	<div class="row">
-	<div class="col-12 col-lg-6" style="margin: auto 0;">
+	<div class="col-12 col-lg-6 textColumn">
 			<h2><?php echo do_shortcode(get_field('increasedoutputtext')); ?></h2>
 			<p><?php echo do_shortcode(get_field('increasedoutputbody')); ?></p>
 		</div>
@@ -63,7 +63,7 @@
 			<img src="<?php echo do_shortcode(get_field('earnrespectimage')); ?>">
 		</div>
 
-		<div class="col-12 col-lg-6" style="margin: auto 0;">
+		<div class="col-12 col-lg-6">
 			<h2><?php echo do_shortcode(get_field('earnrespecttext')); ?></h2>
 			<p><?php echo do_shortcode(get_field('earnrespectbody')); ?></p>
 		</div>
@@ -71,9 +71,9 @@
 </div>
 </div>
 
-<div class="container imageText" style="padding-top:110px; height: 575px;">
+<div class="container imageText thirdImageText">
 	<div class="row">
-	<div class="col-12 col-lg-6" style="margin: auto 0;">
+	<div class="col-12 col-lg-6">
 		<h2><?php echo do_shortcode(get_field('followdreamstext')); ?></h2>
 		<p><?php echo do_shortcode(get_field('followdreamsbody')); ?></p>
 		</div>
