@@ -143,6 +143,22 @@ a:hover {
   width: 210px;
 }
 
+#iconLeft {
+  padding-left:0px;
+}
+
+#iconCenter .imgBackground, #iconCenter p {
+  margin:0 auto;
+}
+
+#iconRight {
+  padding-right:0px;
+}
+
+#iconRight .imgBackground, #iconRight p {
+  float:right;
+}
+
 /*Text image sections */
 .container h2 {
   line-height: 1em!important;

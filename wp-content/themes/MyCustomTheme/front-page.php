@@ -4,7 +4,7 @@
 <div class="fullwidthImage">
 	<div class="container">
     <div class="row">
-        <div class="col-12" style=>
+        <div class="col-12">
 	        <?php 
             if ( have_posts() ) {
                 while ( have_posts() ) {
@@ -20,7 +20,7 @@
  
 <div class="container topIcons">
 	<div class="row justify-content-center">
-		<div class="col-12 col-lg-3" id="iconLeft" style="padding-left:0px;">
+		<div class="col-12 col-lg-3" id="iconLeft">
 			<div class="imgBackground">
 				<img src="wp-content/uploads/2020/08/Webathon_segment.png">
 			</div>
@@ -28,17 +28,17 @@
 		</div>
 
 		<div class="col-12 col-lg-3" id="iconCenter" >
-			<div class="imgBackground" style="margin:0 auto;">
+			<div class="imgBackground">
 			<img src="wp-content/uploads/2020/08/Webathon_distribute.png">
 		</div>
-		<p style="margin:0 auto;"><strong>Distribute</strong> tasks to your team</p>
+		<p><strong>Distribute</strong> tasks to your team</p>
 		</div>
 
-		<div class="col-12 col-lg-3" id="iconRight" style="padding-right:0px;">
-			<div class="imgBackground" style="float:right;">
+		<div class="col-12 col-lg-3" id="iconRight">
+			<div class="imgBackground">
 			<img src="wp-content/uploads/2020/08/Webathon_manage.png">
 		</div>
-		<p style="float:right;"><strong>Manage</strong> your workflow</p>
+		<p><strong>Manage</strong> your workflow</p>
 	</div>
 	</div>
 </div>
