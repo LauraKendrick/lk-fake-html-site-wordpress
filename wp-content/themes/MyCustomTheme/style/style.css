@@ -289,12 +289,13 @@ padding-top:15px;
   .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1155px!important;
   }
+}
 
+@media only screen and (max-width: 1200px) {
   .footerContainer {
     height: auto;
   }
 }
-
 
 @media only screen and (max-width: 1000px) {
   .imageText {
