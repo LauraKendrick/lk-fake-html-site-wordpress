@@ -82,6 +82,11 @@ a:hover {
   float:left;
 }
 
+.mob-icon-menu .mob-menu-icon {
+  margin-top: 35px!important;
+  color: #FFA000;
+}
+
 /*Top banner */
 .fullwidthImage {
   background-image: url('http://localhost/fakehtmlsite/wp-content/uploads/2020/08/Webathon_lumberjack-man.png');
