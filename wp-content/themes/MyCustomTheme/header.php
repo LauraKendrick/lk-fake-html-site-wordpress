@@ -5,6 +5,7 @@
 
 	<?php wp_head();?>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+	<link href="style/style.css" rel="stylesheet">
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <!-- Latest compiled and minified CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
@@ -22,7 +23,7 @@
 		<div class="row">
 			<div class="col-6" style="display:flex;">
 				<div class="logoContainer" style="margin:auto 0;">
-					<img style="width: 190px; padding-bottom: 10px;" src="http://localhost/fakehtmlsite/wp-content/uploads/2020/08/Webathon_logo.png" style="float:left; width: 180px;">
+					<img style="width: 190px; padding-bottom: 10px;" src="wp-content/uploads/2020/08/Webathon_logo.png" style="float:left; width: 180px;">
 				</div>
 			</div>
 			

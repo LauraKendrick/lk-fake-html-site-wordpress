@@ -177,7 +177,7 @@ body {
   padding-bottom: 25px;
   font-size: 34px!important;
   font-weight: 200;
-  color: white;
+  color: #B2B2B2;
 }
 
 .topIcons p {
@@ -207,8 +207,10 @@ body {
   padding-top: 5px;
 }
 
+@media only screen and (min-width: 768px){
 .footerContainer .col-2 {
   max-width: 16%!important;
+}
 }
 
 @media only screen and (max-width: 1000px) {
@@ -221,6 +223,9 @@ body {
   #iconRight .imgBackground, #iconLeft .imgBackground, #iconRight p, #iconLeft p, #iconCenter .imgBackground, #iconCenter p{
     float: none!important;
     margin:auto;
+  }
+
+  #iconRight p, #iconLeft p, #iconCenter p{
     padding-bottom: 25px;
   }
 }
@@ -238,8 +243,24 @@ body {
   .copyrightRow {
     padding-top:10px!important;
   }
+
+  .imageText h2, .imageText p {
+    text-align: center;
+  }
+
+  .menuContainer {
+    display:none;
+  }
+
+  .mob-menu-logo-holder {
+    display: none;
+  }
 }
 
 .footerContainer p {
     width: 100%;
+}
+
+.footerContainer .container {
+  padding-top:15px;
 }
