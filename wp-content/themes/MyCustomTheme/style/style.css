@@ -4,11 +4,6 @@ body {
   background-color:#EBEBEB!important; 
 }
 
-body {
-  background-image:url(http://localhost/fakehtmlsite/wp-content/uploads/2020/08/Fake-webpage.png);
-  background-size:contain;
-}
-
 h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'Roboto', sans-serif;
 }
