@@ -92,6 +92,12 @@ a:hover {
   background-image: url('http://localhost/fakehtmlsite/wp-content/uploads/2020/08/Webathon_lumberjack-man.png');
   background-size: cover;
   height: 615px;
+  width:100%; 
+  max-width:100%;
+}
+
+.fullwidthImage .col-12 {
+  margin-top: 110px;
 }
 
 .fullwidthImage h1 {

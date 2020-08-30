@@ -1,11 +1,10 @@
 <?php /* Template Name: homepage */ ?>
 <?php get_header(); ?>
 
-<div class="fullwidthImage" style="width:100%; max-width:100%;">
-	<!--<img src="http://localhost/fakehtmlsite/wp-content/uploads/2020/08/Webathon_lumberjack-man.png" style="width:100%:">-->
+<div class="fullwidthImage">
 	<div class="container">
     <div class="row">
-        <div class="col-12" style="margin-top:110px;">
+        <div class="col-12" style=>
 	        <?php 
             if ( have_posts() ) {
                 while ( have_posts() ) {
@@ -18,7 +17,6 @@
     </div>
 </div>
 </div>
-	</div>
  
 <div class="container topIcons">
 	<div class="row justify-content-center">
