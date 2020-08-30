@@ -1,4 +1,13 @@
-/* Navigation Menu */
+
+body {
+  margin: 0px !important; 
+  background-color:#EBEBEB!important; 
+}
+
+body {
+  /*background-image:url(http://localhost/fakehtmlsite/wp-content/uploads/2020/08/Fake-webpage.png);*/
+  background-size:contain;
+}
 
 h1, h2, h3, h4, h5, h6, p, a {
   font-family: 'Roboto', sans-serif;
@@ -6,6 +15,18 @@ h1, h2, h3, h4, h5, h6, p, a {
 
 a:hover {
   color: #FFA000!important;
+}
+
+/*Button */
+.btn-primary {
+  background-color: #FFA000!important;
+  padding: 10px;
+  border-radius: 10px!important;
+  font-size: 24px!important;
+  width: 170px!important;
+  height: 55px;
+  margin-top:30px;
+  border: none!important
 }
 
 .btn:hover {
@@ -17,47 +38,12 @@ a:hover {
   box-shadow: none!important;
 }
 
-.container h2 {
-  line-height: 1em!important;
-  font-weight: 600!important;
-  font-size: 60px!important;
-  letter-spacing: 1px;
-  width: 450px;
-}
-
-.container p {
-  font-size: 24px!important;
-  line-height:1em!important;
-  width: 445px;
-}
-
-.GreyContainer h2, .GreyContainer p {
-  float: right;
-}
-
+/*Header */
 .headerContainer .container {
-    position: absolute;
-    top: 35px;
-    background-color: rgba(255,255,255,0.5);
+  position: absolute;
+  top: 35px;
+  background-color: rgba(255,255,255,0.5);
 }
-
-#copywright {
-  background-color: #2D3436;
-  color: white;
-  height: 50px;
-  display: flex; }
-
-.copywright padding {
-  margin: auto 0; }
-
-body {
-  margin: 0px !important; 
-  background-color:#EBEBEB!important; 
-}
-
-.et_pb_row, .headerContainer {
-  width: 80%;
-  margin-left: 10%; }
 
 .menuContainer {
   float: left;
@@ -83,12 +69,41 @@ body {
   font-size: 24px;
 }
 
+#menu-primary-menu {
+  margin-bottom: 0px;
+}
+
+.fullWidthHeader {
+  background-color: white!important;
+}
+
+.logoContainer {
+  margin:auto 0;
+}
+
+/*Top banner */
 .fullwidthImage {
   background-image: url('http://localhost/fakehtmlsite/wp-content/uploads/2020/08/Webathon_lumberjack-man.png');
   background-size: cover;
   height: 615px;
 }
 
+.fullwidthImage h1 {
+  font-size:74px;
+  color: white!important;
+  line-height: 1em;
+}
+
+.fullwidthImage p{
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font-size: 34px!important;
+  font-weight: 200;
+  color: #B2B2B2;
+}
+
+
+/*Icons */
 .topIcons {
   margin-top:-90px;
 }
@@ -110,11 +125,29 @@ body {
   height: 125px;
 }
 
-.footerContainer {
-  width: 100%;
-  background-color: #3C2F19;
-  color: white;
-  height: 500px;
+.topIcons p {
+  text-align: center;
+  padding-top: 25px;
+  width: 210px;
+}
+
+/*Text image sections */
+.container h2 {
+  line-height: 1em!important;
+  font-weight: 600!important;
+  font-size: 60px!important;
+  letter-spacing: 1px;
+  width: 450px;
+}
+
+.container p {
+  font-size: 24px!important;
+  line-height:1em!important;
+  width: 445px;
+}
+
+.GreyContainer h2, .GreyContainer p {
+  float: right;
 }
 
 .GreyContainer {
@@ -123,31 +156,28 @@ body {
   text-align: right;
 }
 
-.fullWidthHeader {
-  background-color: white!important;
-}
-
 .imageText img {
   -webkit-box-shadow: 0px 0px 15px 1px rgb(132 130 130);
   -moz-box-shadow: 0px 0px 15px 1px rgb(132 130 130);
   box-shadow: 0px 0px 15px 1px rgb(132 130 130);
 }
 
-.fullwidthImage h1 {
-  font-size:74px;
-  color: white!important;
-  line-height: 1em;
+/*Footer */
+#copywright {
+  background-color: #2D3436;
+  color: white;
+  height: 50px;
+  display: flex; }
+
+.copywright padding {
+  margin: auto 0; 
 }
 
-.btn-primary {
-  background-color: #FFA000!important;
-  padding: 10px;
-  border-radius: 10px!important;
-  font-size: 24px!important;
-  width: 170px!important;
-  height: 55px;
-  margin-top:30px;
-  border: none!important
+.footerContainer {
+    width: 100%;
+    background-color: #3C2F19;
+    color: white;
+    height: 500px;
 }
 
 .footerContainer li {
@@ -172,46 +202,27 @@ body {
   color: #B2B2B2;
 }
 
-.fullwidthImage p{
-  padding-top: 10px;
-  padding-bottom: 25px;
-  font-size: 34px!important;
-  font-weight: 200;
-  color: #B2B2B2;
+.footerContainer img {
+  width: 190px;
+  padding-top: 5px;
 }
 
-.topIcons p {
-  text-align: center;
-  padding-top: 25px;
-  width: 210px;
+.footerContainer p {
+  width: 100%;
 }
 
-#menu-primary-menu {
-  margin-bottom: 0px;
+.footerContainer .container {
+padding-top:15px;
 }
 
 
+/*Media queries */
 @media (min-width: 1200px) {
   .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1155px!important;
   }
 }
 
-body {
-  /*background-image:url(http://localhost/fakehtmlsite/wp-content/uploads/2020/08/Fake-webpage.png);*/
-  background-size:contain;
-}
-
-.footerContainer img {
-  width: 190px;
-  padding-top: 5px;
-}
-
-@media only screen and (min-width: 768px){
-.footerContainer .col-2 {
-  max-width: 16%!important;
-}
-}
 
 @media only screen and (max-width: 1000px) {
   .imageText {
@@ -228,9 +239,7 @@ body {
   #iconRight p, #iconLeft p, #iconCenter p{
     padding-bottom: 25px;
   }
-}
 
-@media only screen and (max-width: 1000px) {
   .container p, .container h2 {
     width: 100%;
   }
@@ -257,10 +266,9 @@ body {
   }
 }
 
-.footerContainer p {
-    width: 100%;
-}
+@media only screen and (min-width: 768px){
+  .footerContainer .col-2 {
+    max-width: 16%!important;
+  }
+  }
 
-.footerContainer .container {
-  padding-top:15px;
-}

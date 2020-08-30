@@ -23,7 +23,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-6" style="display:flex;">
-				<div class="logoContainer" style="margin:auto 0;">
+				<div class="logoContainer" style="">
 					<img style="width: 190px; padding-bottom: 10px;" src="wp-content/uploads/2020/08/Webathon_logo.png" style="float:left; width: 180px;">
 				</div>
 			</div>
