@@ -270,6 +270,11 @@ body.mob-menu-slideout-over {
 padding-top:15px;
 }
 
+.footerContainer .col-md-2 {
+  padding-left:0px;
+}
+
+
 .fullwidthImage p{
   padding-top: 10px;
   padding-bottom: 25px;
