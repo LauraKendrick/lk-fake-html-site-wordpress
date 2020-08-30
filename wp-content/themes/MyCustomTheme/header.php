@@ -5,7 +5,8 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" type="image/x-icon" href="favicon.png"  />
+	<<!--link rel="icon" type="image/x-icon" href="favicon.png"  />-->
+	<link rel="icon" href="favicon.png" type="image/png">
 	<?php wp_head();?>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
