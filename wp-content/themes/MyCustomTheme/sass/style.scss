@@ -1,0 +1,267 @@
+$primary-green:#007737;
+$primaryNavyBlue: #1D2951;
+$primaryGold: #CEA434;
+$primaryGold2: #e8be4d;
+$primaryDarkGrey: #2D3436;
+
+#copywright {
+    background-color: #2D3436;
+    color: white;
+    height: 50px;
+    display: flex;
+}
+
+.copywright padding {
+    margin: auto 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px !important;
+}
+
+.et_pb_row, .headerContainer {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.menuContainer {
+    width: 80%;
+    float: left;
+    min-height: 100px;
+    display: flex;
+}
+
+.menuContainer .custom-menu-class {
+    margin: auto;
+    width: 100%;
+}
+
+.menuContainer li {
+    display: inline-block;
+    position: relative;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.menuContainer ul {
+    list-style: none;
+}
+
+.menuContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.blogPosts {
+    width: 100%;
+    float: left;
+}
+
+
+.sub-menu {
+    display: none;
+}
+
+.menu-item-has-children:hover ul {
+    display: block;
+    position: absolute;
+    padding-left: 0px;
+    width: 200px;
+    line-height: 1.7em;
+    background-color: white;
+    padding-bottom: 5px;
+}
+
+.menu-item-has-children:hover ul li {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu-item:hover {
+    border-bottom: 2px solid #e8be4d;
+}
+
+#imageCentered {
+    display: flex;
+    margin:0 auto;
+}
+
+.jumbotron {
+    height: 80vh;
+    background-image: url('http://localhost/nightsky/wp-content/uploads/2020/06/nightSkyHeaderImage.png');
+    h1 {
+        color: white;
+    }
+}
+
+#btn-centered {
+    display: flex;
+    margin: 0 auto;
+}
+
+#fullwidth-container {
+    background-color:#B2BEC3;
+    width:100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#fullwidthContainerGrey {
+    background-color:lightgray;
+    width:100%;
+    padding-top:25px;
+    padding-bottom:25px;
+    margin-top: 50px;
+}
+
+.postsTable {
+    width: 50%;
+    float: left;
+}
+
+#pageTitle {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-align: center;
+    //background-color: $primaryDarkGrey;
+    background: url(http://localhost/nightsky/wp-content/uploads/2020/06/white-star-png-transparent-background-7.png) repeat, $primaryDarkGrey;
+    height: 125px;
+    max-width: 100%;
+    color: white;
+}
+
+.pricingCard {
+    border: 2px solid pink;
+    border-radius: 10px;
+    height: 350px;
+    margin-top: 25px;
+}
+
+.pricingCardCenter {
+    border: 2px solid pink;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.homepageSquare {
+    width: 150px;
+    height: 150px;
+    //background-color: pink;
+    background: #15102f;
+    border-radius: 80px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/*
+.copywright {
+    background-color:$primaryNavyBlue;
+    color:white;
+    height:50px;
+    display:flex;
+
+    padding {
+        margin:auto 0;
+    }
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin:0px!important;
+}
+
+
+.menuContainer {
+    width: 80%;
+    float: left;
+    min-height: 100px;
+    display: flex;
+
+    .custom-menu-class {
+        margin:auto;
+        width:100%;
+    }
+    
+    li {
+        display: inline-block;
+        position: relative;
+        margin-left:30px;
+        margin-right:30px;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.logo {
+    width:20%;
+    float:left;
+}
+
+.blogPosts {
+    width:100%;
+    float:left;
+}
+
+
+
+.postsTable {
+    width:33%;
+    float:left;
+    /*td {
+        width:75%;
+    }
+
+    .thumbnailImage {
+        width:25%;
+    } 
+}
+
+
+.pageTitle {
+    width: 100%;
+    margin-top: 125px;
+    //background-color: darkslateblue;
+    background-color:$primaryNavyBlue;
+    height: 150px;
+    display: flex;
+    color:white;
+
+    h1 {
+        margin: auto;
+    }
+} 
+
+
+
+
+
+
+
+
+.btnContainer {
+    display:flex;
+    .btn {
+        background-color:pink;
+        padding:20px;
+        flex:1;
+    }
+}
+
+
+
+} */
