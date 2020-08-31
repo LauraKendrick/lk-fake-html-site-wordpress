@@ -102,6 +102,7 @@ body.mob-menu-slideout-over {
   height: 615px;
   width:100%; 
   max-width:100%;
+  background-position: right;
 }
 
 .fullwidthImage .col-12 {
