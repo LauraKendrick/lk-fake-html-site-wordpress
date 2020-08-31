@@ -25,13 +25,13 @@
 	<div class="fullWidthHeader">
 	<div class="container">
 		<div class="row">
-			<div class="col-6" style="display:flex;">
+			<div class="col-4 col-lg-6" style="display:flex;">
 				<div class="logoContainer">
 					<img src="wp-content/uploads/2020/08/Webathon_logo.png">
 				</div>
 			</div>
 			
-			<div class="col-6">
+			<div class="col-8 col-lg-6">
 				<div class="menuContainer">
 					<?php
 					wp_nav_menu( array( 
