@@ -205,6 +205,10 @@ body.mob-menu-slideout-over {
   width: 210px!important;
 }
 
+#iconCenter p {
+  width: 190px!important;
+}
+
 #iconLeft {
   padding-left:0px;
 }
