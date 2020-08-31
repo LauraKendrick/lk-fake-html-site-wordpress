@@ -218,12 +218,6 @@ body.mob-menu-slideout-over {
 }
 
 /*Footer */
-#copywright {
-  background-color: #2D3436;
-  color: white;
-  height: 50px;
-  display: flex; }
-
 .copywright padding {
   margin: auto 0; 
 }
@@ -275,6 +269,9 @@ padding-top:30px;
   padding-left:0px;
 }
 
+.footerContainer .copywrite p {
+  font-size: 17px!important;
+}
 
 .fullwidthImage p{
   padding-top: 10px;
