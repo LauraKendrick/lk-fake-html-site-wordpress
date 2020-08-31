@@ -154,6 +154,10 @@ body.mob-menu-slideout-over {
 .container p {
   font-size: 24px!important;
   line-height:1em!important;
+  width: 480px;
+}
+
+.GreyContainer p {
   width: 445px;
 }
 
@@ -310,7 +314,7 @@ padding-top:30px;
     padding-bottom: 25px;
   }
 
-  .container p, .container h2 {
+  .container p, .container h2, .greyContainer p {
     width: 100%;
   }
 
