@@ -359,3 +359,8 @@ padding-top:30px;
   }
   }
 
+@media only screen and (max-width: 470px) {
+  .topIcons {
+  margin-top:25px;
+}
+}
